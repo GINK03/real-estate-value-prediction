@@ -24,7 +24,7 @@ Awesome real estate value prediction with machine-learnings.
 ## 分析結果
  - 東京の価格のバイオリン図
  
- - 都道府県の価格のバイオリン図
+ - 都道府県の一万円あたりで借りられる面積のバイオリン図
 <div align="center">
    <img width="100%" src="https://user-images.githubusercontent.com/4949982/54755783-1370ae80-4c2a-11e9-8bc5-b6b0b23a677b.png">
 </div>
