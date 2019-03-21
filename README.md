@@ -22,8 +22,11 @@ Awesome real estate value prediction with machine-learnings.
  - Chrome Extentionを作る
  
 ## 分析結果
- - 東京の価格のバイオリン図
- 
+ - 東京23区の一万円あたりで借りられる面積のバイオリン図
+<div align="center">
+   <img width="100%" src="https://user-images.githubusercontent.com/4949982/54757849-65b3ce80-4c2e-11e9-992e-e92db27fa6fe.png">
+</div>
+
  - 都道府県の一万円あたりで借りられる面積のバイオリン図
 <div align="center">
    <img width="100%" src="https://user-images.githubusercontent.com/4949982/54755783-1370ae80-4c2a-11e9-8bc5-b6b0b23a677b.png">
