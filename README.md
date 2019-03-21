@@ -5,7 +5,7 @@ Awesome real estate value prediction with machine-learnings.
  - 機械学習で不動産を予想する意味  
   特徴量から重要度を知ることができる
   
- - EndUserにとって嬉しいこととは？
+ - EndUserにとって嬉しいこととは？  
   Chrome Extentionなどでその情報の正当性を推し量る事ができる
   
 ## 破
@@ -25,6 +25,9 @@ Awesome real estate value prediction with machine-learnings.
  - 東京の価格のバイオリン図
  
  - 都道府県の価格のバイオリン図
+<div align="center">
+   <img width="100%" src="https://user-images.githubusercontent.com/4949982/54755783-1370ae80-4c2a-11e9-8bc5-b6b0b23a677b.png">
+</div>
  
 ## 急
  - 東京の結果
