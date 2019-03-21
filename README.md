@@ -2,7 +2,7 @@
 Awesome real estate value prediction with machine-learnings.
 
 ## 序
- - 機械学習で不動産を予想する意味
+ - 機械学習で不動産を予想する意味  
   特徴量から重要度を知ることができる
   
  - EndUserにとって嬉しいこととは？
