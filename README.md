@@ -9,7 +9,7 @@ Awesome real estate value prediction with machine-learnings.
   Chrome Extentionなどでその情報の正当性を推し量る事ができる
   
 ## 破
- - データを集める
+ - データを集める  
  Link
  
  - モデルを検討する
@@ -20,6 +20,11 @@ Awesome real estate value prediction with machine-learnings.
  - 東京と全国でモデルを分ける
  
  - Chrome Extentionを作る
+ 
+## 分析結果
+ - 東京の価格のバイオリン図
+ 
+ - 都道府県の価格のバイオリン図
  
 ## 急
  - 東京の結果
