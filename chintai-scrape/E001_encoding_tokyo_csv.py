@@ -41,4 +41,5 @@ for val in [val//10*10 for val in list(df['menseki'].unique())]:
 '''
 df.drop(['menseki'], axis=1, inplace=True)
 
+df.drop(['country'], axis=1, inplace=True)
 df.to_csv('encoded.csv', index=None)

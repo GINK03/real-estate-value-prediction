@@ -8,7 +8,7 @@ import numpy as np
 import optuna
 df = pd.read_csv('./encoded.csv')
 y = df['yachin']
-features = [c for c in df.columns if c not in ['yachin', 'country']]
+features = [c for c in df.columns if c not in ['yachin']]
 x = df[features]
 skf = KFold(n_splits=4)
 
@@ -38,7 +38,7 @@ def objective(trial):
 
 
 study = optuna.create_study()
-study.optimize(objective, n_trials=50)
+study.optimize(objective, n_trials=20)
 print(study.best_value)
 print(study.best_trial)
 best_param = study.best_params
