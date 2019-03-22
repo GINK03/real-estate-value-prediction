@@ -6,7 +6,7 @@ Awesome real estate value prediction with machine-learnings.
   特徴量から重要度を知ることができる
   
  - EndUserにとって嬉しいこととは？  
-  Chrome Extentionなどでその情報の正当性を推し量る事ができる
+  線形モデルならばChrome ExtentionなどJavaScriptなどでも、不動産の情報の正当性を推し量る事ができる
   
 ## 破
 
