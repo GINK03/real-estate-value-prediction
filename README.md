@@ -19,7 +19,7 @@ ElasticNetはL1, L2の正則化をあわせた線形モデルで、オーバー�
 
 ```
 1 / (2 * n_samples) * ||y - w*x||^2
-+ alpha * l1_ratio * ||w||_1
++ alpha * l1_ratio * ||w||
 + 0.5 * alpha * (1 - l1_ratio) * ||w||^2
 ```
 目的関数はこのように定義され、alpha, l1_ratioのパラメータを自由に設定することでCross-Validationの性能を確認することができる
