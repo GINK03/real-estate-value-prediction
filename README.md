@@ -40,9 +40,24 @@ def objective(trial):
 ```
 このように目的関数を定義して、最適化の対象となる変数を必要なだけ作成する 
  
-### 東京と全国でモデルを分ける
-TODO
- 
+### 東京と全国でモデルを分け、n-foldの結果
+#### 東京
+```console
+$ E001_encoding_tokyo_csv.py
+$ python3 F001_train.py
+...
+[I 2019-03-23 03:25:29,056] Finished trial#19 resulted in value: 3.4197571524870867. Current best value is 2.2600063056382806 with parameters: {'l1_ratio': 0.003751256696740757, 'alpha': 0.8929680752855311}.
+2.2600063056382806 # <- 平均、2.26万ぐらいはズレがあって、このパラメータが最良であったという意味
+```
+#### 全国
+```console
+$ E001_encoding_all_country_csv.py
+$ python3 F001_train.py
+...
+[I 2019-03-23 03:31:46,979] Finished trial#19 resulted in value: 1.8120767773887. Current best value is 1.37366033285635 with parameters: {'l1_ratio': 0.006727252595147615, 'alpha': 0.1862555099699844}.
+1.37366033285635　# <- 平均、1.37万ぐらいはズレがあって、このパラメータが最良であったという意味
+```
+
 ### Chrome Extentionを作る
 TODO:@hayashi
  
