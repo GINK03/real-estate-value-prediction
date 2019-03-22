@@ -10,11 +10,11 @@ Awesome real estate value prediction with machine-learnings.
   
 ## 破
  - データを集める  
- Link
+ ダウンロード済みのデータはこちら[Link](https://www.dropbox.com/s/a1jc2hoed3bxnvp/data.tar.gz?dl=0)
  
  - モデルを検討する
- 独立な情報でone-hotベクトルを仮定  
  Elastic-Netを利用  
+ 独立な情報でone-hotベクトルを仮定  
  optunaで最適化
  
  - 東京と全国でモデルを分ける
