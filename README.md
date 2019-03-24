@@ -108,6 +108,11 @@ $ python3 F001_train.py
    <img width="700px" src="https://user-images.githubusercontent.com/4949982/54878941-a56cf700-4e76-11e9-922d-8443f24377ed.png">
  </div>
  
+  <div align="center">
+   <img width="100%" src="https://user-images.githubusercontent.com/4949982/54880037-c1c36080-4e83-11e9-9719-4f2bb1de5587.png">
+   <div>JSわからないなりに頑張った…</div>
+ </div>
+ 
  - 価格差が大きいとはなにかあるのでは無いかを考えられる  
 　当然ながら、事故物件であるようなフラグは存在しないので、今回のモデルは特徴量として獲得していない。 例えば、異常に安い物件があるのならば、なにかそれを説明する変数（事故など）が背景にあると考える一助になる。  
 　
