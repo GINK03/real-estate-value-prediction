@@ -1,5 +1,6 @@
 # Real Estate Value Prediction
-Awesome real estate value prediction with machine-learnings.
+Awesome real estate value prediction with machine-learnings. (and chrome-browser usecase)
+
 
 ## 序
  - 機械学習で不動産を予想する意味  
@@ -92,6 +93,12 @@ TODO:@hayashi
 
  
  - Chrome Extentionのユースケース
+ なれないJavaScriptを書いて作ったのがこちらです。 
+ "ネットで賃貸"さまのデータから、"Homes"さまの東京の詳細情報を評価できるChrome Extentionを作ってみました。 
+ 
+ <div align="center">
+   <img width="500px" src="https://user-images.githubusercontent.com/4949982/54878941-a56cf700-4e76-11e9-922d-8443f24377ed.png">
+ </div>
  
  - 価格差が大きいとはなにか例外があるということ  
  
