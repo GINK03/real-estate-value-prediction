@@ -67,6 +67,8 @@ $ python3 F001_train.py
 
 モデルの作りが線形モデルになっているため、割と簡単にJavaScriptにモデルを組み込むことができる。（面側の言葉のゆらぎなどに脆弱ですが）  
 
+※ githubの`real-estate-value-prediction/chrome-ex-template/src`をChromeの`chrome://extensions/`より、インストールすることができます。
+
 ## 分析結果
  - 東京23区の一般的な特徴量（部屋の種類、何区、設備など）からt-sneを行うと、クラスタが分かれるより連続している事がわかる  
 <div align="center">
