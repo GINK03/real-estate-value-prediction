@@ -120,3 +120,13 @@ $ python3 F001_train.py
 　
  今回のモデルがあれば相場がわからない人がぼったくられるようなことを防ぐようなことも、インターフェースを整理すれば可能になるだろう。 
  
+ ## コード説明
+ [https://github.com/GINK03/real-estate-value-prediction] 
+ - **A001_parse_htmls.py** : chintai.netのhtmlのパース、データは上記のDropboxよりダウンロード
+ - **B001_lexical_parse_json.py** : ヒューリスティックにタグを解析してパースする
+ - **C001_analysis_country_agg.py** : バイオリンプロットの可視化
+ - **E001_encoding_all_country_csv.py** : 全都道府県の粒度でワンホットエンコーディング
+ - **E001_encoding_tokyo_csv.py** : 23区の粒度でワンホットエンコーディング
+ - **F001_train.py** : 学習
+ - **chrome-ex-template/src** : クローム拡張の本体
+ 
