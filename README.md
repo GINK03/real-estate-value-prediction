@@ -1,7 +1,3 @@
-# Real Estate Value Prediction
-Awesome real estate value prediction with machine-learnings. (and chrome-browser usecase)
-
-
 ## 序
  - 機械学習で不動産を予想する意味  
   特徴量から重要度を知ることができる
@@ -11,8 +7,6 @@ Awesome real estate value prediction with machine-learnings. (and chrome-browser
  
  - 管理会社にとって嬉しいことは？  
   特徴量の重要度が明確にわかるため、設備投資戦略をどうするか、異常に値段がずれてしまっている案件の修正などに用いることができる
-  
-## 破
 
 ### データを集める  
  - ダウンロード済みのデータはこちら[Link](https://www.dropbox.com/s/a1jc2hoed3bxnvp/data.tar.gz?dl=0)
@@ -69,7 +63,7 @@ $ python3 F001_train.py
 
 ※ githubの`real-estate-value-prediction/chrome-ex-template/src`をChromeの`chrome://extensions/`より、インストールすることができます。
 
-## 分析結果
+## 分析
  - 東京23区の一般的な特徴量（部屋の種類、何区、設備など）からt-sneを行うと、クラスタが分かれるより連続している事がわかる  
 <div align="center">
    <img width="500px" src="https://user-images.githubusercontent.com/4949982/54764073-69e5e900-4c3a-11e9-9fb8-63f9175cbf68.png">
@@ -85,8 +79,11 @@ $ python3 F001_train.py
    <img width="100%" src="https://user-images.githubusercontent.com/4949982/54755783-1370ae80-4c2a-11e9-8bc5-b6b0b23a677b.png">
 </div>
  
-## 急
- - 東京の結果
+### 特徴量重要度  
+
+ElasticNetの特徴量の重要度で、重要度がプラス側に倒れるほど価格にプラスに影響する特徴量で、マイナスに倒れるほど価格にマイスに影響する特徴量になる。  
+
+ - 東京の結果  
 <div align="center">
    <img width="100%" src="https://user-images.githubusercontent.com/4949982/54759796-25564f80-4c32-11e9-8919-c6d964ba751b.png">
  <div>細かいので拡大して閲覧してください</div>
@@ -99,7 +96,7 @@ $ python3 F001_train.py
 </div>
 
  
- - Chrome Extentionのユースケース
+### Chrome Extentionのユースケース
  なれないJavaScriptを書いて作ったものになります。 
  
  この[GitHubのコード](https://github.com/waterada/chrome-ex-template)をもとに作成しました。  
@@ -120,8 +117,10 @@ $ python3 F001_train.py
 　
  今回のモデルがあれば相場がわからない人がぼったくられるようなことを防ぐようなことも、インターフェースを整理すれば可能になるだろう。 
  
- ## コード説明
- [https://github.com/GINK03/real-estate-value-prediction] 
+## コード説明
+
+ [https://github.com/GINK03/real-estate-value-prediction:embed] 
+
  - **A001_parse_htmls.py** : chintai.netのhtmlのパース、データは上記のDropboxよりダウンロード
  - **B001_lexical_parse_json.py** : ヒューリスティックにタグを解析してパースする
  - **C001_analysis_country_agg.py** : バイオリンプロットの可視化
